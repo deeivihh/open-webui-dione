@@ -4,19 +4,23 @@
             "version": "latest"
         }
     },
-    "installation": {
-        "name": "Creating environment",
-        "env": "env",
-        "commands": [
-            "pip install --upgrade pip",
-            "pip install open-webui"
-        ]
-    },
-    "start": {
-        "name": "Starting open-webui",
-        "env": "env",
-        "commands": [
-            "open-webui serve"
-        ]
-    }
+    "installation": [
+        {
+            "name": "Creating environment",
+            "env": "env",
+            "commands": [
+                "pip install --upgrade pip",
+                "pip install open-webui"
+            ]
+        }
+    ],
+    "start": [
+        {
+            "name": "Starting open-webui",
+            "env": "env",
+            "commands": [
+                "open-webui serve"
+            ]
+        }
+    ]
 }
