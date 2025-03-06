@@ -9,7 +9,6 @@
             "name": "Creating environment",
             "env": "env",
             "commands": [
-                "pip install --upgrade pip",
                 "pip install open-webui"
             ]
         }
