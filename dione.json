@@ -9,7 +9,7 @@
             "name": "Creating environment",
             "env": "env",
             "commands": [
-                "pip install open-webui"
+                "uv pip install open-webui"
             ]
         }
     ],
@@ -18,7 +18,7 @@
             "name": "Starting open-webui",
             "env": "env",
             "commands": [
-                "open-webui serve"
+                "uv open-webui serve"
             ]
         }
     ]
