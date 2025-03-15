@@ -1,9 +1,4 @@
 {
-    "dependencies": {
-        "python": {
-            "version": "latest"
-        }
-    },
     "installation": [
         {
             "name": "Creating environment",
