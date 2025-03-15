@@ -13,7 +13,7 @@
             "name": "Starting open-webui",
             "env": "env",
             "commands": [
-                "uv open-webui serve"
+                "uvx --python 3.11 open-webui@latest serve"
             ]
         }
     ]
