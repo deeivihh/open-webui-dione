@@ -12,6 +12,7 @@
         {
             "name": "Starting open-webui",
             "env": "env",
+            "catch": "8080",
             "commands": [
                 "uvx --python 3.11 open-webui@latest serve"
             ]
