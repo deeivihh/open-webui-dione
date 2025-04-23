@@ -4,7 +4,7 @@
             "name": "Creating environment",
             "env": "env",
             "commands": [
-                "uv pip install open-webui"
+                { "command": "uv pip install open-webui" },
             ]
         }
     ],
@@ -14,7 +14,7 @@
             "env": "env",
             "catch": "8080",
             "commands": [
-                "uvx --python 3.11 open-webui@latest serve"
+               { "command": "uvx --python 3.11 open-webui@latest serve" },
             ]
         }
     ]
